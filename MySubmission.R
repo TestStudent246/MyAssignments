@@ -3,4 +3,5 @@
 
 library(ggplot2)
 data(cars)
-ggplot(aes(x=dist,y=speed), data = cars) + geom_point(color='blue',point=14)
+ggplot(aes(x=dist,y=speed), data = cars) + geom_point(color='red',point=14)
+#I changed the point color

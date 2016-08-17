@@ -3,4 +3,4 @@
 
 library(ggplot2)
 data(cars)
-ggplot(aes(x=dist,y=speed), data = cars) + geom_point()
+ggplot(aes(x=dist,y=speed), data = cars) + geom_point() #Great work; don't forget to use blue squares as your points!
